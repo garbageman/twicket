@@ -4,7 +4,7 @@ import React from 'react';
 
 import { ComponentMeta } from '@storybook/react';
 
-import App from './App';
+import App from './app';
 
 export default {
   /* 👇 The title prop is optional.
