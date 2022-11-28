@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NavBar from '/src/ui/components/nav-bar';
+import NavBar from 'ui/components/nav-bar';
 
 import logo from './logo.svg';
 import styles from './app.module.scss';

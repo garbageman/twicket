@@ -24,7 +24,7 @@ module.exports = {
   },
   webpackFinal: async (config, { configType }) => {
     config.resolve.modules = [
-      path.resolve(__dirname, ".."),
+      path.resolve(__dirname, "../src"),
       "node_modules",
     ]
 
