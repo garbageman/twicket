@@ -1,3 +1,13 @@
+@use 'src/ui/styles/colors.scss';
+@use 'src/ui/styles/fonts.scss';
+
 .nav-bar {
   width: 100%;
+  background-color: colors.$white;
+  height: 3rem;
+  border-bottom: 1px solid colors.$grey-200;
+}
+
+.logo {
+  @include fonts.logo-font();
 }

@@ -1,0 +1,8 @@
+@use 'src/ui/styles/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+@mixin logo-font() {
+  color: colors.$twicket-blue;
+  font-family: 'Source Sans Pro', sans-serif, bold;
+  font-size: 2rem;
+}

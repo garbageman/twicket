@@ -7,10 +7,11 @@ type NavBarProps = {
 };
 
 function NavBar(props: NavBarProps) {
-  console.log(styles);
   return (
-    <div className={styles.nav_bar}>
-      test
+    <div className={styles.navBar}>
+      <div className={styles.logo}>
+        Twicket
+      </div>
     </div>
   );
 }
