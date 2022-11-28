@@ -8,11 +8,11 @@ module.exports = {
       name: '@storybook/preset-scss',
       options: {
         cssLoaderOptions: {
-           modules: {
-             mode: 'local',
-           exportLocalsConvention: 'camelCaseOnly',
-         }
-        }
+          modules: {
+            mode: 'local',
+            exportLocalsConvention: 'camelCaseOnly',
+          },
+        },
       }
     }
   ],
